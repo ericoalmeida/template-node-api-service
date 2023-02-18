@@ -1,0 +1,17 @@
+{
+  "name": "template-node-api-service",
+  "version": "0.0.0",
+  "description": "API service template",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericoalmeida/template-node-api-service.git"
+  },
+  "keywords": [],
+  "author": "ericoalmeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericoalmeida/template-node-api-service/issues"
+  },
+  "homepage": "https://github.com/ericoalmeida/template-node-api-service#readme"
+}
