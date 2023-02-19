@@ -8,7 +8,9 @@
     "module": "CommonJS",
     "rootDir": "./",
     "baseUrl": "./",
-    "paths": {},
+    "paths": {
+      "@main/*": ["./src/main/*"]
+    },
     "allowJs": true,
     "declaration": true,
     "declarationMap": true,
