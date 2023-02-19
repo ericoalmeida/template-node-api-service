@@ -1,7 +1,7 @@
 import 'module-alias'
 
-import { setupApp } from './configs/setup-app.config'
-import { appEnvVariables } from './env-variables/app.env.variables'
+import { setupApp } from '@main/configs/setup-app.config'
+import { appEnvVariables } from '@main/env-variables/app.env.variables'
 
 const start = (): void => {
   const app = setupApp()

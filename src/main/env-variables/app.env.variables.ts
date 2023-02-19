@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 
-import { defaultEnvVariables } from './default.env.variables'
+import { defaultEnvVariables } from '@main/env-variables/default.env.variables'
 
 dotenv.config()
 
