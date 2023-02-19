@@ -1,3 +1,5 @@
+import 'module-alias'
+
 import { setupApp } from './configs/setup-app.config'
 import { appEnvVariables } from './env-variables/app.env.variables'
 
