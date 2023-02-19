@@ -34,6 +34,7 @@
     "@types/jest": "^29.4.0",
     "@types/module-alias": "^2.0.1",
     "@types/node": "^18.14.0",
+    "@types/swagger-jsdoc": "^6.0.1",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "eslint": "^8.34.0",
     "eslint-config-standard-with-typescript": "^34.0.0",
@@ -51,7 +52,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "module-alias": "^2.2.2"
+    "module-alias": "^2.2.2",
+    "swagger-jsdoc": "^6.2.8"
   },
   "_moduleAliases": {
     "@main": "./src/main"
