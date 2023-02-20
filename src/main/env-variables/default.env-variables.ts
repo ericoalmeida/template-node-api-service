@@ -1,4 +1,4 @@
-import { constantsEnvVariables } from '@main/env-variables/constants.env.variable'
+import { constantsEnvVariables } from '@main/env-variables/constants.env-variables'
 
 const defaultEnvVariables = {
   nodeEnv: constantsEnvVariables.environment.development,

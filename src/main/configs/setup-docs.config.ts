@@ -2,8 +2,8 @@ import { type Express } from 'express'
 import { serve, setup } from 'swagger-ui-express'
 
 import { swaggerSpecificationDoc } from '@main/docs/swagger-specification.doc'
-import { appEnvVariables } from '@main/env-variables/app.env.variables'
-import { constantsEnvVariables } from '@main/env-variables/constants.env.variable'
+import { appEnvVariables } from '@main/env-variables/app.env-variables'
+import { constantsEnvVariables } from '@main/env-variables/constants.env-variables'
 
 const apiDocsEndpoint = '/api-docs'
 
