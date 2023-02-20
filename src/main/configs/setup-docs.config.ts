@@ -2,16 +2,16 @@ import { type Express } from 'express'
 import { serve, setup } from 'swagger-ui-express'
 
 import { swaggerSpecificationDoc } from '@main/docs/swagger-specification.doc'
-import { appEnvVariables } from '@main/env-variables/app.env-variables'
 import { constantsEnvVariables } from '@main/env-variables/constants.env-variables'
+import { serverEnvVariables } from '@main/env-variables/server.env-variables'
 
 const apiDocsEndpoint = '/api-docs'
 
 const runningInProductionEnvironment = (): boolean => {
-  const { nodeEnv } = appEnvVariables
+  const { application } = serverEnvVariables
   const { environment } = constantsEnvVariables
 
-  return nodeEnv === environment.production
+  return application.nodeEnv === environment.production
 }
 
 const setupDocs = (app: Express): void => {
