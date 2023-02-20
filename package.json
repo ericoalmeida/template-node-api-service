@@ -63,6 +63,7 @@
   },
   "_moduleAliases": {
     "@common": "./src/common",
-    "@main": "./src/main"
+    "@main": "./src/main",
+    "@presentation": "./src/presentation"
   }
 }

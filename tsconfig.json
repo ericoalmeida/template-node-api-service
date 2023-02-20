@@ -10,7 +10,8 @@
     "baseUrl": "./",
     "paths": {
       "@common/*": ["./src/common/*"],
-      "@main/*": ["./src/main/*"]
+      "@main/*": ["./src/main/*"],
+      "@presentation/*": ["./src/presentation/*"]
     },
     "allowJs": true,
     "declaration": true,
