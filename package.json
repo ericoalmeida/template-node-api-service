@@ -62,6 +62,7 @@
     "tsyringe": "^4.7.0"
   },
   "_moduleAliases": {
+    "@common": "./src/common",
     "@main": "./src/main"
   }
 }

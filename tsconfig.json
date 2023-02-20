@@ -9,6 +9,7 @@
     "rootDir": "./",
     "baseUrl": "./",
     "paths": {
+      "@common/*": ["./src/common/*"],
       "@main/*": ["./src/main/*"]
     },
     "allowJs": true,
