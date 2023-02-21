@@ -1,7 +1,7 @@
-import { type ResponseProtocol } from '@presentation/protocols/responses/response.protocol'
+import { type Response } from '@presentation/protocols/responses/response.protocol'
 
-interface ControllerProtocol<TypeRequest = any, TypeData = any> {
-  handle: (request: TypeRequest) => Promise<ResponseProtocol<TypeData>>
+interface Controller<TypeRequest = any, TypeData = any> {
+  handle: (request: TypeRequest) => Promise<Response<TypeData>>
 }
 
-export type { ControllerProtocol }
+export type { Controller }

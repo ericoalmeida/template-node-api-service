@@ -1,4 +1,4 @@
-interface ResponseProtocol<TypeData = any> {
+interface Response<TypeData = any> {
   statusCode: number
   body?: {
     data?: TypeData
@@ -6,4 +6,4 @@ interface ResponseProtocol<TypeData = any> {
   }
 }
 
-export type { ResponseProtocol }
+export type { Response }
