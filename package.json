@@ -43,6 +43,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
     "jest": "^29.4.3",
+    "jest-mock-extended": "^3.0.1",
     "lint-staged": "^13.1.2",
     "prisma": "^4.10.1",
     "ts-jest": "^29.0.5",
@@ -67,6 +68,7 @@
   "_moduleAliases": {
     "@common": "./src/common",
     "@main": "./src/main",
-    "@presentation": "./src/presentation"
+    "@presentation": "./src/presentation",
+    "@test-common": "./src/test"
   }
 }

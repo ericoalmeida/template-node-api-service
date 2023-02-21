@@ -11,7 +11,8 @@
     "paths": {
       "@common/*": ["./src/common/*"],
       "@main/*": ["./src/main/*"],
-      "@presentation/*": ["./src/presentation/*"]
+      "@presentation/*": ["./src/presentation/*"],
+      "@test-common/*": ["./test/common/*"]
     },
     "allowJs": true,
     "declaration": true,
