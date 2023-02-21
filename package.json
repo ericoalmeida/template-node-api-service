@@ -8,6 +8,7 @@
     "url": "git+https://github.com/ericoalmeida/template-node-api-service.git"
   },
   "scripts": {
+    "db:deploy":"prisma migrate deploy",
     "start:dev":"tsx watch src/main/server.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
