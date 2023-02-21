@@ -10,7 +10,7 @@
   "scripts": {
     "build": "rimraf build && rimraf .tsbuildinfo && tsc",
     "db:deploy": "prisma migrate deploy",
-    "start:dev": "tsx watch src/main/server.ts",
+    "start:dev": "tsx watch --inspect=0.0.0.0:${PORT_DEBUG} src/main/server.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch --config='./jest-unit.config.js'",
