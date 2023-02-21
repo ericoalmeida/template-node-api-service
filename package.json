@@ -8,6 +8,7 @@
     "url": "git+https://github.com/ericoalmeida/template-node-api-service.git"
   },
   "scripts": {
+    "build": "rimraf build && rimraf .tsbuildinfo && tsc",
     "db:deploy": "prisma migrate deploy",
     "start:dev": "tsx watch src/main/server.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
@@ -69,9 +70,9 @@
     "tsyringe": "^4.7.0"
   },
   "_moduleAliases": {
-    "@common": "./src/common",
-    "@main": "./src/main",
-    "@presentation": "./src/presentation",
-    "@test-common": "./src/test"
+    "@common": "./build/src/common",
+    "@main": "./build/src/main",
+    "@presentation": "./build/src/presentation",
+    "@test-common": "./build/src/test"
   }
 }
