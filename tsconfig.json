@@ -27,6 +27,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["src", "tests"],
+  "include": ["src", "test"],
   "exclude": ["coverage", "node_modules", "build"]
 }
