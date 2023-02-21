@@ -1,0 +1,6 @@
+# folders
+coverage
+node_modules
+
+# files
+.tsbuildinfo
