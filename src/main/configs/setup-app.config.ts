@@ -11,9 +11,9 @@ const setupApp = (): Express => {
 
   setupDi()
   setupDocs(app)
-  setupHttpLogger(app)
   setupMiddlewares(app)
   setupRoutes(app)
+  setupHttpLogger(app)
 
   return app
 }
